@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* css header */
+header{
+  height: 65px;
+  width: 100%;
+  background-color: #c0392b;
+  
+  position: fixed;
+  top:0;
+  
+  /* Ubah z-index ke 10 */
+  z-index: 100;
+}
+
+.header-logo {
+  width: 130px;
+  margin-top: 15px;
+  float:left
+}
+.header-avenger{
+ font-size:50px ;
+}
+
+.header-left {
+  float: left;
+  text-align: center;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #1abc9c
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.header-menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+/* css main */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  background-image: url(assets/avengers.jpg);
+  height: 500px;
+  background-position: 0 -70px;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+.main-container{
+  width: 100%;
+  padding: 180px 0 100px 0;
+}
+
+.main-text{
+  width: 400px;
+}
+
+.main h1, .main p{
+  position: relative;
+  z-index: 10;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main p{
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.main-kotak{
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,.9));
+ 
+}
+
+svg{
+  margin-top: -250px;
+  position: relative;
+  z-index: 2;
+}
+
+/* css body atas */
+.film-container{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.film-heading{
+  margin-bottom: 6px;
+}
+
+.film-wrapper{
+  display:flex;
+}
+
+.column-1 {
+  flex-basis: 50%;
+  margin: 0 auto;
+}
+
+.film {
+  padding-left: 8px;
+  padding-bottom: 8px;
+  overflow:hidden;
+}
+
+.film img {
+  max-width: 68px;
+  float: left;
+  margin-right: 12px;
+}
+
+.film-des h3{  
+ margin-top: 8px;
+}
+/* css body bawah */
+.hero-wrapper {
+  padding-bottom: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+
+.hero-container {
+  width: 87%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.hero-heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+
+.heroes {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.hero {
+  flex: auto;
+  width: 25%;
+}
+
+
+.hero-icon img {
+  width: 87%;
+  padding-top: 20px;
+}
+
+
+.hero-icon p {
+  font-size: 20px;
+}
+
+
+.hero-icon img:hover {
+  opacity: 0.8;
+}
+
+
+.hero-icon p:hover {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+
+.hulk {
+  background-color: #BCC1A1;
+  color: black;
+}
+
+
+.hawkeye {
+  background-color: #ACA29E;
+}
+
+
+.ironman {
+  background-color: #E9CC8D;
+}
+
+
+.blackpanther {
+  background-color: #45413D;
+  color: white;
+}
+
+
+.captainamerica {
+  background-color: #7C98A5;
+}
+
+
+.blackwidow {
+  background-color: #979494;
+}
+
+
+.thor {
+  background-color: #2C2E5E;
+  color: white;
+}
+
+
+.spiderman {
+  background-color: #781313;
+  color: white;
+}
+
+
+.hero-icon p {
+  width: 100%;
+}
+
+.hero-txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 25px;
+  font-size: 15px;
+}
+
+/* css footer */
+.footer-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+footer img {
+  width: 100px;
+  float:left;
+}
+
+footer p {
+  color: #c0392b;
+  font-size: 75px;
+}
+
